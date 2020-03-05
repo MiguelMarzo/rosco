@@ -40,6 +40,12 @@
     "typeface-roboto": "0.0.75",
     "workbox-webpack-plugin": "^5.0.0"
   },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
   "babel": {
     "presets": [
       "@babel/preset-env",
